@@ -1,9 +1,20 @@
-.fa-star-o:before {
-    content: "\f006";
-    color: #5f6368;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.fa-star:before {
-    content: "\f005";
-    color: #d56e0c;
+.fa {
+  font-size: 50px;
+}
+
+.fa-star-o::before {
+  content: '\f006';
+  color: #5f6368;
+}
+
+.fa-star::before {
+  content: '\f005';
+  color: #d56e0c;
 }
