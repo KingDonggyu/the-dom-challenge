@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#grid {
+  width: fit-content;
+  display: grid;
+  border: 1.5px solid lightgray;
+}
+
+.pixel {
+  width: 55px;
+  height: 55px;
+  border: 1.5px solid lightgray;
+}
+
+.dragged {
+  background-color: black;
+}
