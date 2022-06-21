@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#chess-board {
+  width: 640px;
+  height: 640px;
+  padding: 1px;
+  border: 7px solid;
+  border-radius: 7px;
+  display: grid;
+}
+
+.chess-block {
+  width: 80px;
+  height: 80px;
+}
+
+.highlight {
+  background-color: red !important;
+}
